@@ -13,4 +13,7 @@ script:
   - true
 notifications:
   email:
-    - $EMAIL
+    recipients:
+      - $EMAIL
+    on_success: always
+    on_failure: always
