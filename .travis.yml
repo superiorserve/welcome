@@ -12,3 +12,4 @@ script:
   - echo 'hello world again'
   - true
   - false
+  - false
