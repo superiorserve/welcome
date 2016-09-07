@@ -11,3 +11,6 @@ before_script:
 script:
   - echo 'hello world again'
   - true
+notifications:
+  email:
+    - $EMAIL
